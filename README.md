@@ -1,1 +1,1 @@
-# my_first_codes
+This is one of my first Python codes.
