@@ -27,5 +27,7 @@ while True:
         print('Your total amount is ${:.2f}. You have to pay {}x ${:.2f}.'.format(total, total_inst, installments))
         break
     else:
-        print('Invalid option. Try again.')
+        print('\033[1;31mInvalid option. Try again.\033[m')
         
+
+
