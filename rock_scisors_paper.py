@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 print('== ROCK, SCISORS AND PAPER ==')
-print('Let us play!')
+print("Let's play!")
 elements = ('Rock','Scisors','Paper')
 computer = randint(0,2)
 print('''Your options:
@@ -14,7 +14,7 @@ wins = 0
 while wins<3:
     player = int(input('Choose your option: '))
     if player > 2:
-        print('Invalid option. Try again.')
+        print('\033[1;31mInvalid option. Try again.\033[m')
         continue
     # else: 
         # break
@@ -34,7 +34,7 @@ while wins<3:
             print("Let's try again!")
         elif player == 1:
             print('\033[1;33mThe computer WON!\033[m')
-            wins = wins+1
+            wins=wins+1
             computer=computer+1
         elif player == 2:
             print('\033[1;32mYou WON!\033[m')
@@ -65,6 +65,6 @@ while wins<3:
             print('\033[1;34mended in a TIE!\033[m')
             print("Let's try again!")
 if player>computer:
-    print('You is the WINNER!!!')
+    print('You are the WINNER!!!')
 else:
     print('Computer is the WINNER!!!')
