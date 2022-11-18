@@ -19,10 +19,10 @@ while option !=5:
         print(f'O produto entre {value1} e {value2} é {produto}.')
     elif option == 3:
         if value1>value2:
-            higher = value1
+            bigest = value1
         else:
-            higher = value2
-        print(f'O maior valor entre {value1} e {value2} é {higher}')
+            bigest = value2
+        print(f'O maior valor entre {value1} e {value2} é {bigest}')
     elif option == 4:
         print('Informe novamente os valores:')
         value1 = int(input('Informe o 1º valor: '))
