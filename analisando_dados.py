@@ -16,8 +16,8 @@ while question in 'Ss':
 print('Finalizando...')
 sleep(2.5)
 average = soma/count                
-print('''Valores digitados: {}
-Maior valor digitado: {}
-Menor valor digitado: {}
-Soma dos valores digitados: {}
-Média dos valores digitados: {:.1f}'''.format(count, bigest, smaller, soma, average))
+print(f'''Valores digitados: {count}
+Maior valor digitado: {bigest}
+Menor valor digitado: {smaller}
+Soma dos valores digitados: {soma}
+Média dos valores digitados: {average}''')
