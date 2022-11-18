@@ -20,4 +20,4 @@ print(f'''Valores digitados: {count}
 Maior valor digitado: {bigest}
 Menor valor digitado: {smaller}
 Soma dos valores digitados: {soma}
-Média dos valores digitados: {average}''')
+Média dos valores digitados: {average:.1f}''')
