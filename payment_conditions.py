@@ -28,6 +28,5 @@ while True:
         break
     else:
         print('\033[1;31mInvalid option. Try again.\033[m')
-        
 
 
